@@ -37,7 +37,7 @@ jobs:
 
       - name: Zip Python file
         run: |
-          zip -j word_count.zip src/word_count.py
+          zip -j word_count.zip Actions/src/word_count.py
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -45,7 +45,7 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install -r deploy/requirements_deploy.txt
+        run: pip install -r Actions/deploy/requirements_deploy.txt
 
       - name: Run deploy file
-        run: python deploy/create_function.py
+        run: python Actions/deploy/create_function.py
