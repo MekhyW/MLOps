@@ -1,4 +1,5 @@
 import boto3
+import boto3.exceptions
 import os
 
 function_name = "wc_felipec13"
@@ -15,10 +16,16 @@ lambda_role_arn = os.getenv("AWS_LAMBDA_ROLE_ARN")
 with open("word_count.zip", "rb") as f:
     zip_to_deploy = f.read()
 
-lambda_response = lambda_client.create_function(
-    FunctionName=function_name,
-    Runtime="python3.10",
-    Role=lambda_role_arn,
-    Handler="word_count.word_count_handler",
-    Code={"ZipFile": zip_to_deploy},
-)
+try:
+    lambda_response = lambda_client.create_function(
+        FunctionName=function_name,
+        Runtime="python3.10",
+        Role=lambda_role_arn,
+        Handler="word_count.word_count_handler",
+        Code={"ZipFile": zip_to_deploy},
+    )
+except boto3.exceptions.botocore.exceptions.ClientError as e:
+    if e.response["Error"]["Code"] == "ResourceConflictException":
+        print("Function already exists")
+    else:
+        raise e
