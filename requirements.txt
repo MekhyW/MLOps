@@ -1,0 +1,6 @@
+celery
+pandas
+python-dotenv
+boto3
+pika
+pytest
