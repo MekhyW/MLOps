@@ -1,0 +1,6 @@
+artifact_location: file:///C:/Users/felip/OneDrive/Documentos/GitHub/MLOps/Mlflow/mlruns/112747696301930849
+creation_time: 1727275286138
+experiment_id: '112747696301930849'
+last_update_time: 1727275286138
+lifecycle_stage: active
+name: churn-exp

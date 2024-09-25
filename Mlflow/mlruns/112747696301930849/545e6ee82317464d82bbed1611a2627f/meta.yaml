@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/felip/OneDrive/Documentos/GitHub/MLOps/Mlflow/mlruns/112747696301930849/545e6ee82317464d82bbed1611a2627f/artifacts
+end_time: 1727275288612
+entry_point_name: ''
+experiment_id: '112747696301930849'
+lifecycle_stage: active
+run_id: 545e6ee82317464d82bbed1611a2627f
+run_name: clean-chimp-869
+run_uuid: 545e6ee82317464d82bbed1611a2627f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727275286237
+status: 3
+tags: []
+user_id: felip

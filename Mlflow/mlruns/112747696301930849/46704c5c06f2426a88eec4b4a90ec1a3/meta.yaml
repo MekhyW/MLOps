@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/felip/OneDrive/Documentos/GitHub/MLOps/Mlflow/mlruns/112747696301930849/46704c5c06f2426a88eec4b4a90ec1a3/artifacts
+end_time: 1727275644663
+entry_point_name: ''
+experiment_id: '112747696301930849'
+lifecycle_stage: active
+run_id: 46704c5c06f2426a88eec4b4a90ec1a3
+run_name: intrigued-colt-477
+run_uuid: 46704c5c06f2426a88eec4b4a90ec1a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727275639152
+status: 3
+tags: []
+user_id: felip

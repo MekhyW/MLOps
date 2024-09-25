@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/felip/OneDrive/Documentos/GitHub/MLOps/Mlflow/mlruns/112747696301930849/dca2bed4c9cf4b168ff6baa18abc8f8a/artifacts
+end_time: 1727275417516
+entry_point_name: ''
+experiment_id: '112747696301930849'
+lifecycle_stage: active
+run_id: dca2bed4c9cf4b168ff6baa18abc8f8a
+run_name: mysterious-lamb-720
+run_uuid: dca2bed4c9cf4b168ff6baa18abc8f8a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727275408421
+status: 3
+tags: []
+user_id: felip

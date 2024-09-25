@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1727275643255
+current_stage: None
+description: null
+last_updated_timestamp: 1727275643255
+name: churn-model
+run_id: 46704c5c06f2426a88eec4b4a90ec1a3
+run_link: null
+source: file:///C:/Users/felip/OneDrive/Documentos/GitHub/MLOps/Mlflow/mlruns/112747696301930849/46704c5c06f2426a88eec4b4a90ec1a3/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/felip/OneDrive/Documentos/GitHub/MLOps/Mlflow/mlruns/112747696301930849/46704c5c06f2426a88eec4b4a90ec1a3/artifacts/model
+user_id: null
+version: 1
