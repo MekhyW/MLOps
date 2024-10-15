@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/felip/OneDrive/Documentos/GitHub/MLOps/Mlflow/mlruns/112747696301930849/9234650944414624afc668e0e3308816/artifacts
+end_time: 1729035848217
+entry_point_name: ''
+experiment_id: '112747696301930849'
+lifecycle_stage: active
+run_id: 9234650944414624afc668e0e3308816
+run_name: agreeable-bird-534
+run_uuid: 9234650944414624afc668e0e3308816
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729035810059
+status: 3
+tags: []
+user_id: felip
