@@ -1,0 +1,18 @@
+stages:
+  preproc:
+    cmd: python src/preproc.py --force
+    deps:
+    - data/bank.csv
+    - src/preproc.py
+    outs:
+    - data/bank_preproc.parquet
+  train:
+    cmd: python src/train.py
+    deps:
+    - data/bank_preproc.parquet
+    - src/train.py
+    outs:
+    - models/model.pickle
+    - models/ohe.pickle
+    - results/confusion_matrix.png
+    - results/model_test_metrics.csv
